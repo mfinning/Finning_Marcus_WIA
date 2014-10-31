@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  WIA-####
+     Name:Marcus Finning
+     Date:10/28/14
+     Class & Section:  WIA-Sec 01
      Comments: "HTML5 Canvas Drawing"
  */
 
@@ -36,7 +36,23 @@ Reminder - set the style first then draw.
 
 //Draw Rectangle here
 
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas1");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+			ctx.storkeStyle = "black";
+			ctx.lineWidth= 5;
+			ctx.strokeRect(0,0, 50, 100);
+		
+		}
+	}
+}
+	
 
+
+
+          
 /*******************************************
 PART 2
 
@@ -52,8 +68,25 @@ Use the arc method
 
 //Draw Circle here
 
-
-
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas2");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+			ctx.storkeStyle= "blue";
+			ctx.fillStyle= "red";
+			ctx.lineWidth = 5;
+			ctx.beginPath();
+			var degrees= 360;
+			var radians = (dregrees/180)*Math.PI;
+			ctx.beginPath();
+			ctx.arc(550,150, 100, 0, radiana);
+			ctx.fill();
+			ctx.stroke();		
+	    }
+	}
+}
+	
 
 /*******************************************
 PART 3
@@ -68,6 +101,16 @@ Height and width and color are up to you.
 
 
 //Draw Star here
+ window.onload = function(){
+	var theCanvas = document.getElementById("Canvas3");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+				
+	    }
+	}
+}
+	
 
 
 /*******************************************
@@ -83,6 +126,17 @@ Do not overlap any other object.
 ********************************************/
 
 //Draw Umbrella top here
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas4");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+			
+	    }
+	}
+}
+	
+
 
 /*******************************************
 PART 5
@@ -93,6 +147,17 @@ Draw text into your canvas.  It can said whatever you would like in any color.
 ********************************************/
 
 //Draw text here
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas5");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+				
+	    }
+	}
+}
+	
+
 
 /*******************************************
 PART 6
@@ -108,6 +173,17 @@ Reminder to use the drawImage method for all 3 of the ways.
 ********************************************/
 
 //Draw images here
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas6");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+			
+	    }
+	}
+}
+	
+
 
 
 
@@ -123,5 +199,18 @@ You must use at least 3 different methods.
 ********************************************/
 
 // Draw scene here
+window.onload = function(){
+	var theCanvas = document.getElementById("Canvas7");
+	if(theCanvas){
+		var ctx = theCanvas.getContext("2d");
+		if(ctx){
+			
+			
+					
+	    }
+	}
+}
+	
+
 
 
